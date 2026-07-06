@@ -13,7 +13,7 @@ sudo dnf install --installroot=$container_root \
     --releasever=9 \
     --nodocs \
     --setopt=install_weak_deps=False \
-    bash coreutils ubi-minimal -y
+    bash coreutils bash coreutils crypto-policies -y
 
 echo "➡️ Configuring container environment and Entrypoint..."
 buildah config --workingdir /root $container
