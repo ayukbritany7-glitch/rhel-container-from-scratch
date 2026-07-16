@@ -1,0 +1,55 @@
+# Build artifacts
+*.img
+*.tar
+*.tar.gz
+*.tar.bz2
+*.squashfs
+
+# Container runtime
+.buildah/
+.podman/
+.container-storage/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+/tmp/
+/build/
+/dist/
+
+# Shell script logs
+*.sh.log
+build.log
+test.log
+
+# Environment files
+.env
+.env.local
+*.pem
+*.key
+
+# CI/CD artifacts
+/coverage/
+/reports/
+
+# Node (if future web UI is added)
+node_modules/
+.npm
+
+# Python (if future tooling is added)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
