@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "RHEL 9 Automation Workflow Validation Successfull!"
+echo "RHEL 9 Automation Workflow Validation Successful!"
