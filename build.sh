@@ -1,4 +1,4 @@
-#!/usr/bin/env bash t
+#!/usr/bin/env bash
 set -e
 
 echo "➡️ Initializing an empty scratch image..."
